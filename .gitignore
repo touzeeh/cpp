@@ -1,0 +1,24 @@
+# Build outputs
+*.exe
+*.obj
+*.o
+*.out
+*.pdb
+*.ilk
+*.constructor
+build/
+build-*/
+.build/
+
+# Machine-specific VS Code configuration
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+
+# Local credentials and private keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx

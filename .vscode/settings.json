@@ -60,5 +60,6 @@
   "code-runner.showRunIconInEditorTitleMenu": true,
   "code-runner.executorMap": {
     "cpp": "powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"$workspaceRoot/.vscode/publish-and-run.ps1\" -Source $fullFileName"
-  }
+  },
+  "C_Cpp_Runner.msvcBatchPath": "C:/Program Files/Microsoft Visual Studio/VR_NR/Community/VC/Auxiliary/Build/vcvarsall.bat"
 }

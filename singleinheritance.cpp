@@ -17,4 +17,5 @@ int main(){
     a.eat();
     d.eat();
     d.bark();
+    return 0;
 }

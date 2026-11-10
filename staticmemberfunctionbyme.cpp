@@ -4,7 +4,7 @@ class niggapro{
     public:
     static int count;
     niggapro(){count++;}
-    static void show(){cout<<"TOTAL OBJECTS ARE AS FOLLOWS NIGGA WATCH THIS"<<count;}
+    static void show(){cout<<"TOTAL OBJECTS ARE AS FOLLOWS NIGGA WATCH THIS "<<count;}
 };
 int niggapro::count=0;
 int main(){

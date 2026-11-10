@@ -55,10 +55,10 @@
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
-  "code-runner.executorMapByFileExtension": {
-    ".cpp": "powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"$workspaceRoot/.vscode/publish-and-run.ps1\" -Source \"$fullFileName\""
-  },
   "code-runner.runInTerminal": true,
   "code-runner.saveFileBeforeRun": true,
-  "code-runner.showRunIconInEditorTitleMenu": true
+  "code-runner.showRunIconInEditorTitleMenu": true,
+  "code-runner.executorMap": {
+    "cpp": "powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File \"$workspaceRoot/.vscode/publish-and-run.ps1\" -Source $fullFileName"
+  }
 }

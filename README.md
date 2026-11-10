@@ -4,7 +4,7 @@ This folder is connected to the public GitHub repository [touzeeh/cpp](https://g
 
 ## Run and publish
 
-Use the Code Runner **Run Code** button in the editor title for a `.cpp` file. It saves the file, commits project changes, and pushes them to the `main` branch before compiling and running the active file. A GitHub sign-in prompt may appear the first time Git pushes from this computer.
+For a `.cpp` file, choose Code Runner **Run Code** from the editor title play button or its dropdown. The separate **Run C/C++ File** and **C/C++ Runner: Run File** actions do not publish. It saves the file, commits project changes, and pushes them to the `main` branch before compiling and running the active file. A GitHub sign-in prompt may appear the first time Git pushes from this computer.
 
 Generated executables and build output are ignored. VS Code launch and compiler-discovery files that contain machine-specific paths are also ignored.
 

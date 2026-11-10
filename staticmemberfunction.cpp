@@ -9,8 +9,6 @@ class nigga{
 int nigga::count=0;
 int main(){
     nigga n1;
-
-    cout<<nigga::count;
     nigga::show();
     return 0;
 }

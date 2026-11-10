@@ -9,4 +9,5 @@ class dog: public animal {
 };
 int main(){
     dog d1;
+    return 0;
 }

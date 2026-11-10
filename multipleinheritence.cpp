@@ -15,11 +15,14 @@ class fish : public dog {
     void notgay(){
     cout<<"i am a fih" << endl;}
 };
-int main(){
+int main() {
     dog d1;
     fish f1;
+
     d1.eat();
     d1.gay();
     f1.eat();
     f1.gay();
+    f1.notgay();
+    return 0;
 }

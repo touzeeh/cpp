@@ -40,10 +40,12 @@ try {
     if ($remoteNames -notcontains 'origin') {
         Invoke-Git @('remote', 'add', 'origin', $expectedRemote)
     } else {
-        $originUrl = (& git remote get-url origin | Select-Object -First 1)
-        if ($LASTEXITCODE -ne 0) {
-            throw 'Could not read the origin URL.'
+        $originUrl = & git config --get remote.origin.url
+        $originExitCode = $LASTEXITCODE
+        if ($originExitCode -ne 0 -or [string]::IsNullOrWhiteSpace([string]$originUrl)) {
+            throw "Could not read the origin URL (git exit code $originExitCode)."
         }
+        $originUrl = [string]$originUrl
         if ($originUrl.TrimEnd('/') -ne $expectedRemote) {
             throw "The existing origin points somewhere else: $originUrl"
         }
@@ -105,4 +107,5 @@ Write-Host 'Running program ...'
 $runExit = $LASTEXITCODE
 if ($publishFailed) { exit 1 }
 exit $runExit
+
 

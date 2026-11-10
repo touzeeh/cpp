@@ -12,9 +12,7 @@ class dog: public animal {
     }
 };
 int main(){
-    animal a;
     dog d;
-    a.eat();
     d.eat();
     d.bark();
     return 0;

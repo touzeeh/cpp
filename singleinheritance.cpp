@@ -11,3 +11,10 @@ class dog: public animal {
         cout<<"barking bhau bhau bhau nigga"<<endl;
     }
 };
+int main(){
+    animal a;
+    dog d;
+    a.eat();
+    d.eat();
+    d.bark();
+}

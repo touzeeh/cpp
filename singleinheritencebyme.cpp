@@ -5,6 +5,7 @@ class animal{
     void eat(){ cout<<"hey i am animal pro max"<<endl;}
 };
 class dog: public animal {
+    public :
     void bark(){ cout<<" meow meow meow " << endl;}
 };
 int main(){

@@ -4,7 +4,7 @@ class nigga{
     public:
     static int count;
     nigga(){count++;}
-    static void show() { cout << "Total objects: " << count; }
+    static void show() { cout << " Total objects: " << count; }
 };
 int nigga::count=0;
 int main(){

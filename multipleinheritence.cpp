@@ -18,7 +18,6 @@ class fish : public dog {
 int main() {
     dog d1;
     fish f1;
-
     d1.eat();
     d1.gay();
     f1.eat();

@@ -23,4 +23,4 @@ int main(){
     obj.heyforc();
     obj.heyford();
     return 0;
-}
+}        //hybrid inheritance example.

@@ -22,4 +22,5 @@ int main(){
     obj.heyforb();
     obj.heyforc();
     obj.heyford();
+    return 0;
 }

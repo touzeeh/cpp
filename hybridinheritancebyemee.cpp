@@ -14,7 +14,7 @@ class c:virtual public a {
 };
 class d:virtual public b, virtual public c {
     public:
-    void showd(){cout<<"this is a"<<endl;}
+    void showd(){cout<<"this is d"<<endl;}
 };
 int main(){
     d d1;

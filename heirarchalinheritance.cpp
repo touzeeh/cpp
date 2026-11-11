@@ -17,7 +17,9 @@ int main(){
     dog d;
     cat c;
     a.eat();
+    d.eat();
     d.bark();
+    c.eat();
     c.meow();
     return 0;
 }

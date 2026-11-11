@@ -1,24 +1,26 @@
 #include <iostream>
 using namespace std;
-class animal{
-    public:
-    void eat(){ cout<<"hey i eat"<<endl;}
-};
-class dog{
-    public:
-    void bark(){ cout<<"hey i bark"<<endl;}
+
+class Camera {
+public:
+    void takePhoto() { cout << "Taking a photo..." << endl; }
 };
 
-// animal and dogs combination will give us puppy.
-class puppy : public animal , public dog { public:
-    void cute(){ cout<<"hey i am puppy"<<endl;}
+class Phone {
+public:
+    void makeCall() { cout << "Calling..." << endl; }
 };
-int main(){
-    animal a;
-    dog d;
-    puppy p;
-    a.eat();
-    d.bark();
-    p.cute();
+
+// Smartphone combines features of both
+class Smartphone : public Camera, public Phone {
+public:
+    void browseInternet() { cout << "Browsing web..." << endl; }
+};
+
+int main() {
+    Smartphone sp;
+    sp.takePhoto();       // from Camera
+    sp.makeCall();        // from Phone
+    sp.browseInternet();  // from Smartphone
     return 0;
 }

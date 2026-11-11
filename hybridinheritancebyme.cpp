@@ -4,27 +4,22 @@ class a{
     public:
     void heyfora(){ cout<<"hey i am a"<<endl;}
 };
-class b: public a{
+class b: virtual public a{
     public:
     void heyforb(){ cout<<"hey i am b"<<endl;}
 };
-class c:public b{
+class c:virtual public b{
     public:
     void heyforc(){ cout<<"hey i am c"<<endl;}
 };
-class d:public a{
+class d:virtual public b, virtual public c{
     public:
     void heyford(){ cout<<"hey i am d"<<endl;}
 }; 
 int main(){
-    a a1;
-    b b1;
-    c c1;
-    d d1;
-    a1.heyfora();
-    b1.heyforb();
-    c1.heyforc();
-    d1.heyford();
-
-
+    d obj;
+    obj.heyfora(); // Accessible without ambiguity due to virtual inheritance
+    obj.heyforb();
+    obj.heyforc();
+    obj.heyford();
 }

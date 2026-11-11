@@ -20,4 +20,5 @@ int main(){
     d.eat();
     c.eat();
     return 0;
-}
+}      // wrong code nigga
+

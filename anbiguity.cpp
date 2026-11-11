@@ -13,10 +13,14 @@ public:
         cout << "B";
     }
 };
+class c: public A, public B {
+public:
+    void show() {
+        cout << "c";
+    }
+};
 int main(){
-    A a1;
-    a1.show();
-    B b1;
-    b1.show();
+   c obj;
+   obj.show();
     return 0;
 }

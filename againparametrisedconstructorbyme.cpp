@@ -6,6 +6,6 @@ class nigga{ public:
     }
 };
 int main(){
-    nigga(10);
+    nigga n(10);
     return 0;
 }

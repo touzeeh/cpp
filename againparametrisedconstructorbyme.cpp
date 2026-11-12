@@ -1,8 +1,9 @@
 #include <iostream>
 using namespace std;
 class nigga{ public:
+    int size;
     nigga(int a){
-        cout<<"this is constructor"<<endl;
+        size = a;
     }
 };
 int main(){

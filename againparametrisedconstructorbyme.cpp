@@ -8,5 +8,6 @@ class nigga{ public:
 };
 int main(){
     nigga n(10);
+    cout<<n.size<<endl;
     return 0;
 }

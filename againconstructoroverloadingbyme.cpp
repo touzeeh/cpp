@@ -9,4 +9,4 @@ int main(){
     nigga n;
     nigga n1(10,20);
     return 0;
-} // constructor overloading done
+} // constructor overloading done.

@@ -13,12 +13,11 @@ void display(const Node* head)
     std::cout << '\n';
 }
 
-int main()
+void main()
 {
     Node third{30, nullptr};
     Node second{20, &third};
     Node first{10, &second};
 
     display(&first);
-    return 0;
 }

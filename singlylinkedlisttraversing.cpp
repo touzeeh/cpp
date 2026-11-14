@@ -19,6 +19,6 @@ int main()
     Node second{20, &third};
     Node first{10, &second};
 
-    display(&first);
+    display(&first)
     return 0;
 }

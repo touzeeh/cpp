@@ -9,7 +9,6 @@ class counter{
 };
 int counter::count=10;
 int main(){
-    counter c1,c2;
     counter::showcount();
     return 0;
 }

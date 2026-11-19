@@ -10,7 +10,7 @@ public:
 class B {
 public:
     void show() {
-        cout << "B";
+        cout << "B"
     }
 };
 class c: public A, public B {

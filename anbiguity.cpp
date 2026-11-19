@@ -20,5 +20,5 @@ int main(){
   // obj.show();  //error AMBIGUOUS
    obj.A :: show();
    obj.B :: show(); // AMBIGUITY SOLVED
-    return 0
+    return 0;
 }

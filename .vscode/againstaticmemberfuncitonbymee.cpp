@@ -9,4 +9,3 @@ int counter::count =100;
 int main(){
     counter::showcount();
     return 0;
-}

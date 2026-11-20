@@ -21,4 +21,4 @@ int main(){
    obj.A :: show();
    obj.B :: show(); // AMBIGUITY SOLVED
     return 0;
-}
+}}}

@@ -19,6 +19,6 @@ int main(){
    c obj;
   // obj.show();  
    obj.A :: show();
-   obj.B :: show(); //error AMBIGUOUS
-    return 0;
+   obj.B :: show(); 
+    return 0;//error AMBIGUOUS
 }

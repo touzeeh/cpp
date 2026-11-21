@@ -21,4 +21,4 @@ int main(){
    obj.A :: show();
    obj.B :: show(); //error AMBIGUOUS
     return 0;
-}}
+}

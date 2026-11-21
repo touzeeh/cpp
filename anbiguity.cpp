@@ -17,8 +17,8 @@ class c: public A, public B {
     };
 int main(){
    c obj;
-  // obj.show();  //error AMBIGUOUS
+  // obj.show();  
    obj.A :: show();
-   obj.B :: show(); // AMBIGUITY SOLVED
+   obj.B :: show(); //error AMBIGUOUS
     return 0;
 }}}

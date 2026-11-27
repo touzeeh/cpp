@@ -20,5 +20,5 @@ int main(){
   // obj.show()  
    obj.A :: show();
    obj.B :: show(); //error AMBIGUOUS and yeah
-    ju
+    return 0;
 }
